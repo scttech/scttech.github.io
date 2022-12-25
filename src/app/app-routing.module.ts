@@ -4,6 +4,7 @@ import { BlogWelcomeComponent } from './blog-welcome/blog-welcome.component';
 
 const routes: Routes = [
   { path: '', component: BlogWelcomeComponent },
+  { path: '**', component: BlogWelcomeComponent },
 ];
 
 @NgModule({
